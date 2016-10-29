@@ -6,8 +6,6 @@
 body{
     font-family: 'work-family',sans-serif;
     background: #fff;
-    width:100vw;
-    overflow-x: hidden;
 }
 
 .c-red{
@@ -33,6 +31,13 @@ body{
     justify-content: center;
     align-items: center;
     height: calc(100vh - 62px);
+}
+.hero-text-stuff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 h2.head-title{
     text-align: center;
@@ -146,7 +151,4 @@ p.thoda-about-project{
 }
 .hero-member{
     background-image: url(../assets/img/mbg.jpg);
-}
-.button{
-    cursor: pointer;
 }

@@ -5,6 +5,10 @@ $("document").ready(function(){
     $('.close').on('click', function(){
         close_menu();
     });
+
+
+    
+
 });
 var close_menu = function(){
     $('.menu').css("top","-110%");
@@ -31,4 +35,6 @@ $(window).scroll(function(){
     else{
         $('.menu-button').removeClass('menu-button-bottom');     
     }
+
+$('.hero-text-stuff').css("top",ws/32+"%").css("opacity","calc(1 - "+ws/600+")");
 });
